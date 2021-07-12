@@ -37,7 +37,7 @@ input {
   max-height: 170px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body {
     background-color: #21232a;
     padding: 10px;
