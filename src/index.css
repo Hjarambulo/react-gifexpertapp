@@ -18,6 +18,10 @@ input{
   width: 100%;
 }
 
+form{
+  width: 100%;
+}
+
 .card-grid{
   display: flex;
   flex-direction: row;
@@ -41,4 +45,20 @@ input{
 
 .card img{
   max-height: 170px;
+}
+
+@media (max-width: 376px) {
+  body{
+    background-color: #21232A;
+    padding: 10px;
+  }
+
+  form{
+    width: 92%;
+  }
+
+  ol{
+    margin-top: 0px;
+    padding: 15px;
+  }
 }
